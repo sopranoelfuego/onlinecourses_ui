@@ -1,24 +1,38 @@
 
+.achievement{
+    display:block;
 
+    /* padding:1rem */
+}
 .achievement__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    justify-content:center;
+    place-items: center;
+    /* gap: 2rem; */
     margin:8rem auto 3rem  ;
     /* height: 53vh; */
 }
 .achivement__left img{
     height:25rem;
+    width: 100%;
     object-fit: contain;
+}
+.achivement__left{
+
+    width:40%
 }
 .achivement__right{
     display:flex;
    flex-direction: column;
+
+   width:60%;
+
    gap:1rem
     /* gap: 0.4rem; */
 }
 .achivement__right p{
     line-height: 24px;
+    max-width: 600px;
 }
 .achievements__cards{
     display:grid;
@@ -86,7 +100,7 @@
     display:flex;
     flex-direction: column;
     position:relative;
-    max-width: 230px;
+    /* max-width: 230px; */
     height:auto;
    justify-content:center;
    align-items: center;

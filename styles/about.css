@@ -18,6 +18,7 @@
     object-fit: contain;
 }
 .achivement__left{
+    display:flex;
 
     width:40%
 }
@@ -190,12 +191,19 @@
 /* ===================================achievements=========== */
 
     .achievement__container{
-        grid-template-columns: 1fr;
+
+        justify-content:center;
         place-items:center
     }
-  
+   
     .team__container{
         grid-template-columns: repeat(3,1fr);
+    }
+    .achivement__left{
+        width: 50%;
+    }
+    .achivement__right{
+        width: 50%;
     }
     .team__socials{
         visibility:visible;
@@ -234,6 +242,12 @@
     .container{
         width: var(--container-width-sm)
     }
+    .achivement__left ,.achivement__right{
+        width: 100%;
+    }
+.achievement__container{
+    flex-direction: column;
+}
     .achivement__left img{
         
         height:20rem;

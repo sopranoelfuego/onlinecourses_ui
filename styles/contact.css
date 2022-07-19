@@ -172,7 +172,8 @@ input {
     
     .contact__container{
         grid-template-columns:1fr;
-        place-items: center
+        place-items: center;
+        height:fit-content;
     }
     .contact__container .contact__info{
         width: 100%;

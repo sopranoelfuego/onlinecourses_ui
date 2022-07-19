@@ -175,6 +175,7 @@ input {
         grid-template-columns:1fr;
         place-items: center;
         height:fit-content;
+        padding-bottom:5rem ;
     }
     .contact__container .contact__info{
         position: static;

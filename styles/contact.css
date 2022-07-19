@@ -178,7 +178,6 @@ input {
     }
     .contact__container .contact__info{
         position: static;
-        background-color:green;
         width: 100%;
         height:fit-content;
         max-width: none;
